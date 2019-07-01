@@ -50,6 +50,8 @@ public class sendmailClass1 {
 		//message.setSubject("附件夾帶版本測試_by鴻棋","UTF-8");
 		message.setSubject("下載連結版本測試_by鴻棋","UTF-8");
 		
+		
+		
 		String content = "<a download href=\"http://timesjobs.aaasec.com.tw/tk3c/testhtml.html\">123</a>";
 		message.setContent(content, "text/html; charset=utf-8");
 		
