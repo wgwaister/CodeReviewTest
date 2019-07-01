@@ -49,7 +49,7 @@ public class sendmailClass1 {
 		//message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("magicmoonexcd@gmail.com"));
 		//message.setSubject("附件夾帶版本測試_by鴻棋","UTF-8");
 		message.setSubject("下載連結版本測試_by鴻棋","UTF-8");
-		
+		String password2 = "W@iting4u";
 		String content = "<a download href=\"http://timesjobs.aaasec.com.tw/tk3c/testhtml.html\">123</a>";
 		message.setContent(content, "text/html; charset=utf-8");
 		
